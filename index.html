@@ -1,2 +1,111 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria's World!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+      body {
+        background-color: blueviolet;
+        font-family: "Sofia", sans-serif;
+      }
+      img {
+        margin-top: 15px;
+        width: 40%;
+        height: 80%;
+      }
+      #myPicContainer {
+        width: 50%;
+        text-align: center ;
+        margin-bottom: -20px;
+        border-color: blacks;
+      }
+      #topContainer{
+        display: flex;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGasX0CT_hC097dJbEiZ2bxOiLSrdXJtzjCw&usqp=CAU");
+        height: 50%;
+        
+      }
+      #myIntroTitle {
+        background-color: blueviolet;
+        height: fit-content;
+        width: 40%;
+        margin-top: 8%;
+        text-align: center;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="topContainer">
+      <div id="myPicContainer">
+        <img id="myPic" src="https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/295220450_1675633262830146_7779041276465910145_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=ckjE77I1PfEAX9kBtYv&_nc_ht=scontent-lax3-1.xx&oh=00_AfCZhwxAaZA0rdmSEO_hakpDxwo3OkqLuYtMsSp5civouA&oe=648CCD2C"/>
+      </div>
+      <div id="myIntroTitle">
+        <h1>Welcome to Maria's World!</h1>       
+      </div>
+    </div>
+      <br />
+      <div class="container" id="secondContainer">
+
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="colOne">
+            <img src="" alt="" id="icon" />
+            <span id="temp"></span>
+            <p id="description"></p>
+          </div>
+          <div id="degree" class="weatherTemp">
+            <a herf="#" id="fernLink" class="active">℉</a> |
+            <a herf="#" id="celLink">℃</a>
+          </div>
+          <div class="colTwo">
+            <div>Humidity: <span id="humidity"></span>%</div>
+            <br />
+            <div>Wind: <span id="wind"></span><small> km/hr</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="container" id="bottomContainer">
+      <div class="col" id="forecast"></div>
+    </div>
+    <br />
+    <div class="code">
+      <a
+        class="underline"
+        href="https://github.com/McLovinCSUN/JS-Vanilla-finalProject-SheCodes"
+        target="_blank"
+        >Open-Source Code</a
+      >
+      By Maria Martinez
+    </div>
+    <br />
+    <div class="socialMedia">
+      <a class="underline" href="https://github.com/McLovinCSUN" target="_blank"
+        ><img
+          src="https://cdn.afterdawn.fi/v3/news/original/github-logo.png"
+          width="45"
+          heigth="45"
+      /></a>
+      <a
+        class="underline"
+        href="https://www.linkedin.com/in/maria-martinez-8810081a2/"
+        target="_blank"
+        ><img src="images/output-onlinepngtools (2).png" width="50" heigth="50"
+      /></a>
+      <a
+        class="underline"
+        href="https://www.instagram.com/maria_learning2code/?hl=en"
+        target="_blank"
+        ><img src="images/output-onlinepngtools (1).png" width="54" heigth="54"
+      /></a>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
