@@ -33,7 +33,22 @@ mkdir projectOne
 git clone https://github.com/firme-coding/ProjectOne.git
 ```
 8. Open VS Code 
-9. Open folder projectOne
-10. done
+9. Open projectOne directory
+10. Done! You can now start making edits
 
 ## Requirments for Project One
+1. Picture of yourself
+2. Brief bio (name, age, city, kids, fur babies, one thing you are proud of yourself)
+3. Highlight any of your interest using this tags
+- Add at least one hyperlinks
+- Add at least one picture 
+- Add at least one video
+- Use one header, div, and list
+4. GitHub repository committed
+5. Submit the link to your repo in the google doc form
+
+Optional: 
+- Use any HTML tags or CSS to make your page unique like you!
+
+### Helpful Links
+
