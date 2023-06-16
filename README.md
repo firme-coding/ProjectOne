@@ -51,4 +51,7 @@ Optional:
 - Use any HTML tags or CSS to make your page unique like you!
 
 ### Helpful Links
+```shell
+https://colorhunt.co/
+```
 
