@@ -1,7 +1,7 @@
 # ProjectOne
-## Getting Started
+## Getting Started (Assuming you're using a Mac)
 If you have not installed git on to your machine install that first
-### Installing Git
+## Installing Git
 1. Install Homebrew
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -36,11 +36,11 @@ git clone https://github.com/firme-coding/ProjectOne.git
 9. Open projectOne directory
 10. Done! You can now start making edits
 
-## Requirments for Project One
+## Requirements for Project One
 1. Picture of yourself
 2. Brief bio (name, age, city, kids, fur babies, one thing you are proud of yourself)
-3. Highlight any of your interest using this tags
-- Add at least one hyperlinks
+3. Highlight any of your interests using this tags
+- Add at least one hyperlink
 - Add at least one picture 
 - Add at least one video
 - Use one header, div, and list
@@ -53,5 +53,8 @@ Optional:
 ### Helpful Links
 ```shell
 https://colorhunt.co/
+```
+```shell
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ```
 
