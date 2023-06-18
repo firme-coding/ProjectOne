@@ -6,11 +6,25 @@ If you have not installed git on to your machine install that first
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-2. Install Git
+
+2. We need to create an access token
+- Got to GitHub on your browser
+- Click on your profile icon
+- Go to Settings
+- Go to Developer Settings
+- Click on Personal access tokens
+- Click on Tokens
+- Click on Generate new token
+- Fill out the token form (click on NO Expiration date)
+- Generate Token
+- Copy Token 
+- Insert the token as your Git password when it is requested
+![Git Personal Token Gif](/pics/gitPersonalToken.gif)
+3. Install Git
 ```shell
 brew install git
 ```
-3. check if you have installed Git
+4. check if you have installed Git
 ```shell
 git --version
 ```
