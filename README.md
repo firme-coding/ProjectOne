@@ -29,6 +29,16 @@ brew install git
 git --version
 ```
 
+## Install NodeJS
+```
+https://nodejs.org/en
+```
+1. download 18.16.1 LTS
+2. open package from downloads file 
+```
+node-v18.16.1.pkg
+```
+3. just follow steps and opt in recommended options to install software
 ## Clone Repo Onto Your Machine
 1. Open your terminal
 2. Navigate to your Documents directory
